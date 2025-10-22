@@ -247,6 +247,9 @@ export default function GroupCalendarPage() {
                 <DialogHeader>
                   <DialogTitle>新しい予約を作成</DialogTitle>
                 </DialogHeader>
+                <p className="text-xs text-gray-500 mb-4">
+                  ※ 現在の日付から見て次の週の月曜日から日曜日が登録できます
+                </p>
                 <form onSubmit={handleCreateEvent} className="space-y-4">
                   <div>
                     <Label htmlFor="description">タイトル</Label>
